@@ -12,5 +12,5 @@ _start:
 
     ; 3. Safely exit the program using Linux system calls
     mov rax, 60         ; 60 is the sys_exit system call number
-    mov rdi, 0          ; return code 0 (success)
+    mov rdi, 0          ; return code 0 (success).
     syscall
